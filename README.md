@@ -58,6 +58,8 @@ Data was initially ingested and processed via PostgreSQL. The final interactive 
   </tr>
 </table>
 <br>
+Tech: Power BI, PostgreSQL, Python
+<br><br>
 🔗 <strong><a href="https://app.powerbi.com/view?r=eyJrIjoiOTI0ZDM2ODgtOTg5NC00MTFkLTllYjUtZTQ0ZDBmZWE2NzFlIiwidCI6IjgwYjEwMzNmLTIxZTAtNGE4Mi1iYmMwLWYwNWZkY2NkM2JjOCIsImMiOjl9">View Interactive Dashboard on Power BI Service</a></strong>
 </details>
 
@@ -72,8 +74,8 @@ Implemented a load balancing mechanism for distributing traffic between multiple
 <summary>🔻 <b>Click to see details & architecture</b></summary>
 <br>
 Applied design patterns such as Strategy, Proxy, and Monitor Object to efficiently route traffic and monitor database health.
-<br>
-<i>Tech: Java, Hibernate, Docker, PostgreSQL</i>
+<br><br>
+Tech: Java, Hibernate, Docker, PostgreSQL
 </details>
 
 <br>
@@ -101,7 +103,7 @@ Key developments include:
   </tr>
 </table>
 <br>
-<i>Tech: React 19, TypeScript, Node.js, Express, Sequelize (ORM), Socket.io</i>
+Tech: React 19, TypeScript, Node.js, Express, Sequelize (ORM), Socket.io
 </details>
 
 <br>
@@ -112,7 +114,6 @@ Key developments include:
 
 **Compiler Construction:** Designed and implemented a fully functional interpreter for a custom, strongly-typed programming language built from scratch.
 
-**Tech:** Python, ANTLR4, Regex, Unittest
 
 <details>
 <summary>🔻 <b>Click to see engineering deep-dive & screenshots</b></summary>
@@ -134,6 +135,9 @@ Key developments include:
     <td align="center"><img src="resources/pseudo_3.png" alt="Pseudo Syntax 3" width="280"/></td>
   </tr>
 </table>
+<br>
+
+**Tech:** Python, ANTLR4, Regex, Unittest
 </details>
 
 <br>
