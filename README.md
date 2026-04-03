@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>👋 Hi, I'm Maciej Jamroży</h1>
+  <h1>👋 Hi, I'm Maciej</h1>
   
   <h3>Aspiring Data Engineer | 3rd-year IT Student at AGH</h3>
   
