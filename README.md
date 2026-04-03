@@ -70,14 +70,25 @@ Tech: Power BI, PostgreSQL, Python
 ---
 
 **[⚖️ Database Load Balancer](https://github.com/AdamSzL/design-patterns-load-balancer-java)**
-Implemented a load balancing mechanism for distributing traffic between multiple PostgreSQL databases running on Docker.
+A custom JDBC proxy load balancer for efficiently distributing traffic and replicating statements across multiple PostgreSQL databases, **which you can use in your app just like normal Hibernate SessionFactory!!!**
 
 <details>
-<summary>🔻 <b>Click to see details & architecture</b></summary>
+<summary>🔻 <b>Click to see more details & architecture</b></summary>
 <br>
-Applied design patterns such as Strategy, Proxy, and Monitor Object to efficiently route traffic and monitor database health.
-<br><br>
-Tech: Java, Hibernate, Docker, PostgreSQL
+
+**My Contributions:**
+- **System Architecture:** Independently designed the core architecture of the system to ensure transparent integration with the application layer (e.g., Hibernate).
+- **Load Balancing Engine:** Co-developed the traffic distribution mechanism for balancing read/write operations across multiple PostgreSQL instances running in Docker containers.
+- **Design Patterns:** Actively applied core design patterns including **Strategy** (for dynamic routing algorithms), **Proxy** (for connection handling and query replication), and **Monitor Object** (for safe concurrent state modifications and protecting database consistency).
+
+**Demo Video:**
+
+https://github.com/user-attachments/assets/c57e118a-4d01-47e1-98f5-9cfa4460d98b
+
+<br>
+
+**Tech Stack:** Java, Hibernate, Docker, PostgreSQL
+
 </details>
 
 <br>
